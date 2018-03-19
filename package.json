@@ -1,5 +1,11 @@
 {
+	"private": true,
 	"devDependencies": {
-		"lerna": "^2.9.0"
-	}
+		"lerna": "^2.9.0",
+    "ajm-test-lerna-pkg1": "1.0.0"
+	},
+  "workspaces": [
+    "components/*",
+    "packages/*"
+  ]
 }
